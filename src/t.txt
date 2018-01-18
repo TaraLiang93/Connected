@@ -1,6 +1,13 @@
+ St. Petersburg , Tampa
+St. Petersburg, Croton-Harmon
 Philadelphia, Pittsburgh
 Boston, New York
-Philadelphia, New York
+Pittsburgh , Boston
 Los Angeles, San Diego
 New York, Croton-Harmon
-St. Petersburg, Tampa
+Los Angeles, Philadelphia
+           Philadelphia, New York
+           Los Angeles, San Diego
+           New York, Croton-Harmon
+           St. Petersburg, Tampa
+           San Diego, Tampa

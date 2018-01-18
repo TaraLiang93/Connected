@@ -3,6 +3,6 @@
  */
 public class errorLoadingCity extends Exception{
     public errorLoadingCity(String cities){
-        super(cities);
+        super("Error Loading "+cities);
     }
 }

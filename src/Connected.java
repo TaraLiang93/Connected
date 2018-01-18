@@ -28,7 +28,7 @@ public class Connected {
                 addCitiesnConnection(cityList,line);
             }
             //all connections are made by this point
-            if((cityList.containsKey(args[1])==false)||(cityList.containsKey(args[2]))==false){
+            if((cityList.containsKey(args[1].toLowerCase())==false)||(cityList.containsKey(args[2].toLowerCase()))==false){
                 //if the orgin or dest city does not exist in the city list return no and end program
                 System.out.println("No");
                 System.exit(0);
@@ -66,6 +66,7 @@ public class Connected {
             if(cities.length!=2){ //if there extra cities or missing cities
                 throw new errorLoadingCity(input);
             }
+
             City temp;
             if(cityList.containsKey(cities[0]) == false){
                 // city in the input is not in the list of existing cities.
